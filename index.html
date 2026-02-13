@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Rizal Ruby Rahman - Portfolio</title>
+  <meta name="description" />
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+</head>
+<style>
+  .bullet {
+  position: relative;
+  padding-left: 20px;   /* jarak teks dari bullet */
+  line-height: 1.4;
+}
+
+.bullet::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+</style>
+<body>
+  <header class="header">
+    <div class="header__content">
+      <div class="header__logo-container">
+        <!-- <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/john-doe.png"
+              alt="Ram Maheshwari Logo Image"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">John Doe</span> -->
+      </div>
+      <div class="header__main">
+        <ul class="header__links">
+          <li class="header__link-wrapper">
+            <a href="./index.html" class="header__link"> Home </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#about" class="header__link">About </a>
+          </li>
+          <li class="header__link-wrapper">
+            <a href="./index.html#projects" class="header__link">
+              Projects
+            </a>
+          </li>
+         
+        </ul>
+        <div class="header__main-ham-menu-cont">
+          <img src="./assets/svg/ham-menu.svg" alt="hamburger menu" class="header__main-ham-menu" />
+          <img src="./assets/svg/ham-menu-close.svg" alt="hamburger menu close"
+            class="header__main-ham-menu-close d-none" />
+        </div>
+      </div>
+    </div>
+    <div class="header__sm-menu">
+      <div class="header__sm-menu-content">
+        <ul class="header__sm-menu-links">
+          <li class="header__sm-menu-link">
+            <a href="./index.html"> Home </a>
+          </li>
+
+          <li class="header__sm-menu-link">
+            <a href="./index.html#about"> About </a>
+          </li>
+
+          </li>
+          <li class="header__sm-menu-link">
+            <a href="./index.html#projects"> Projects </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="home-hero">
+    <div class="home-hero__content">
+      <h1 class="heading-primary">Rizal Ruby Rahman</h1>
+      <div class="home-hero__info">
+        <p class="text-head" style="color: white;">
+          Web Developer | Software Engineer
+        </p>
+      </div>
+      <div class="home-hero__cta" >
+        <a href="assets/CV Rizal Ruby Rahman.pdf"  style="padding-right: 20px;padding-left: 20px;" target="_blank" class="btn btn--bg">Download CV</a>
+      </div>
+    </div>
+     
+    <div class="home-hero__mouse-scroll-cont">
+      <div class="mouse"></div>
+    </div>
+  </section>
+  <section id="about" style="margin-top: -30px;" class="about sec-pad">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-med">
+        <span class="heading-sec__main">About Me</span>
+        <span class="heading-sec__sub">
+          I am a Web Developer and Software Engineer focused on building modern, responsive, and user-friendly websites and applications. I am experienced in developing web applications with clean code structure, optimal performance, and a strong focus on user experience. I enjoy learning new technologies and always strive to deliver the best solutions for every challenge
+        </span>
+      </h2>
+      <div class="about__content">
+        <div class="about__content-main">
+          <h3 class="about__content-title">Work Experience
+            <div style="width: 30px; height: 5px; background-color: #0062b9; border-radius: 20px;margin-top: 20px;">
+            </div>
+          </h3>
+          <table style="font-size: 1.8rem;">
+            <tr>
+              <td colspan="2">
+                <h2>PT TOS Information Systems Indonesia</h2>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <span style="font-weight: 600;color:#777">September 2024 - Now</span>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div style="height: 20px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td>
+                <h3>Software Engineer</h3>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet">
+                  Maintained and enhanced manufacturing web applications based on ASP.NET, including bug fixes, performance optimization, and feature improvements
+                </div>
+                  
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Maintained desktop applications using VB.NET</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Maintained and developed mobile applications using Flutter and Xamarin</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Developed and printed QR code stickers that can be scanned through mobile applications for identification and tracking purposes</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Developed a web-based vehicle production tracking system to monitor manufacturing processes in real time</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Built a staff attendance system to record employee check-in and check-out digitally</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet">Created digital checksheet reports for quality control and process monitoring</div>
+              </td>
+            </tr>
+             
+              <td colspan="2">
+                <div style="height: 40px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <h2>PT Sysnetsoft</h2>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <span style="font-weight: 600;color:#777">August 2020 - September 2024</span>
+              </td>
+            </tr>
+            <tr>
+              <td colspan="2">
+                <div style="height: 20px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td>
+                <h3>Web Developer</h3>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Developed a web-based school application to manage academic data and school operations</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Created end-of-semester student reports to support academic evaluation and reporting</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Generated student identity reports for administrative and academic purposes</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet"> Developed features for schedule management and exam score processing</div>
+              </td>
+            </tr>
+            <tr>
+              <td style="width: 20px;"></td>
+              <td style="font-size: 1.4rem;">
+                <div class="bullet">Built a web-based finance application using ASP.NET to manage financial data efficiently</div>
+              </td>
+            </tr>
+            
+          </table>
+
+
+        </div>
+        <div class="about__content-skills">
+          <h3 class="about__content-title">My Skills
+            <div style="width: 30px; height: 5px; background-color: #0062b9; border-radius: 20px;margin-top: 20px;">
+            </div>
+
+          </h3>
+          <div class="skills">
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">ASP.NET</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">C#</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">VB.NET</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">Laravel</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">PHP</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">Javascript</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">HTML</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">CSS</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">Bootstrap</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">GIT</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">MySQL</div>
+            <div class="skills__skill" style="background :linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));color: #fff;">SQL Server</div>
+
+          </div>
+          <div style="margin-top: 50px;"></div>
+           <h3 class="about__content-title">Contact
+            <div style="width: 30px; height: 5px; background-color: #0062b9; border-radius: 20px;margin-top: 20px;">
+            </div>
+
+          </h3>
+          <table>
+            <tr>
+              <td align="center">
+                <img src="./assets/png/wa.png" style=" height: 40px; " alt="icon"   />
+              </td>
+              <td>
+                 <h3 style="margin-left: 10px;">089522700115</h3>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <div style="height: 20px;"></div>
+              </td>
+            </tr>
+            <tr>
+              <td align="center">
+                <img src="./assets/png/mail.png" style=" height: 30px; " alt="icon"   />
+              </td>
+              <td>
+                 <h3 style="margin-left: 10px;">rizalrubyr@gmail.com</h3>
+              </td>
+            </tr>
+          </table>
+          
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- <section id="work-experience" class="projects" style="padding-bottom: 30px;">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Work Experience</span>
+
+      </h2>
+
+      <div class="row" style="margin-top: -40px;">
+        <div class="col-md-1"> </div>
+
+        <div class="col-md-8">
+          <div class="heading">
+            <h3 style="color: black; font-size: 20pt;"><b>PT TOS Information Systems Indonesia</b></h3>
+            <h6 class="font-lite-black" style="font-size: 10pt;color: #777;margin-top: 10px;"><b>SEPTEMBER 2024 -
+                NOW</b></h6>
+            <br>
+            <h2 style="color: black;margin-left: 20px">Software Engineer</h2> 
+            <ul style="margin-left: 20px;font-size: 1.5rem;">
+                <li><div class="bullet"> Developing a school application based on a
+                  website</li>
+                <li>&middot; Making end-of-semester student report</li>
+                <li>&middot; Making student identity report</li>
+                <li>&middot; Creating a schedule and managing exam
+                  scores</li>
+                <li>&middot; Creating login page</li>
+                <li>&middot; Developing a finance application based on
+                  a website with ASP.NET</li>
+                <li>&middot; Developing a distribution application
+                  based on a website with ASP.NET</li>
+              </ul>
+          </div> 
+        </div> 
+        <div class="col-md-3"> </div>
+        
+        <div class="col-md-1"> </div>
+
+        <div class="col-md-8" style="margin-top: 40px;">
+          <div class="heading">
+            <h3 style="color: black; font-size: 20pt;"><b>PT Sysnetsoft</b></h3>
+            <h6 class="font-lite-black" style="font-size: 10pt;color: #777;margin-top: 10px;"><b>AUGUST 2020 -
+                SEPTEMBER 2024</b></h6>
+            <br>
+            <h2 style="color: black;margin-left: 20px">Web Developer</h2> 
+            <ul style="margin-left: 20px;font-size: 1.5rem;">
+                <li>&middot; Developing a school application based on a
+                  website</li>
+                <li>&middot; Making end-of-semester student report</li>
+                <li>&middot; Making student identity report</li>
+                <li>&middot; Creating a schedule and managing exam
+                  scores</li>
+                <li>&middot; Creating login page</li>
+                <li>&middot; Developing a finance application based on
+                  a website with ASP.NET</li>
+                <li>&middot; Developing a distribution application
+                  based on a website with ASP.NET</li>
+              </ul>
+          </div> 
+        </div> 
+        <div class="col-md-3"> </div>
+      </div>
+
+    </div>
+  </section> -->
+  <section id="projects" class="projects  ">
+    <div class="main-container">
+      <h2 class="heading heading-sec heading-sec__mb-bg">
+        <span class="heading-sec__main">Projects</span>
+
+      </h2>
+      <div class="row" style="margin-top: -70px;">
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/mhs.png" alt="Myhomeschool" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/f.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/p.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/pecgi.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img src="assets/images/pgmeats.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <img style="height: 155px;" src="assets/images/pis.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4" style="margin-top: 30px;">
+          <div class="card">
+            <div class="card-body">
+              <div class="d-flex justify-content-center" style="margin: auto;">
+  <img style="width: 100px;" src="assets/images/eatsmobile.png" alt="Software Screenshot" class="projects__row-img"
+                loading="lazy" />
+              </div>
+            
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<br><br>
+<br><br>
+  <footer class="main-footer" style="background: linear-gradient(to right, rgba(0, 98, 185, 0.8), rgba(0, 98, 185, 0.8));">
+    <div class="main-container">
+       
+
+      <!-- If you give me some credit or shoutout here by linking to my website, then it will be a big thing for me and will help me a lot :) -->
+      <div class="main-footer__lower">
+        &copy; Copyright 2026. Made by <b>Rizal Ruby Rahman</b>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>
